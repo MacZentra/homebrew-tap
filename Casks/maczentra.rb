@@ -2,8 +2,8 @@
 # frozen_string_literal: true
 
 cask "maczentra" do
-  version "1.0.3"
-  sha256 "43e5979e48865a9b3e4a0a1d80626e8031bdcc2297a39b823f7f28ec020c61aa"
+  version "1.0.4"
+  sha256 "03ed64e01ddc5a29a4cfff2a03d10e3f08deebc644085fa9fe8ec465d2e991a1"
 
   url "https://maczentra.com/downloads/MacZentra_#{version}_universal.dmg"
   name "MacZentra"
