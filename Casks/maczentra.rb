@@ -2,10 +2,10 @@
 # frozen_string_literal: true
 
 cask "maczentra" do
-  version "1.0.8"
-  sha256 "a4c1f729566c2e7bda31a93c7d783f34334b638bf18cfe009ab845024df93850"
+  version "1.0.9"
+  sha256 "b250097c272a99bd68ea707bc222850bda8948a9c606b318212954c0de75ed18"
 
-  url "https://maczentra.com/downloads/MacZentra_#{version}_universal.dmg"
+  url "https://maczentra.com/downloads/MacZentra_#{version}_aarch64.dmg"
   name "MacZentra"
   desc "Storage analyzer and cleaner"
   homepage "https://maczentra.com/"
@@ -18,6 +18,7 @@ cask "maczentra" do
   end
 
   auto_updates true
+  depends_on arch: :arm64
   depends_on macos: :ventura
 
   app "MacZentra.app"
