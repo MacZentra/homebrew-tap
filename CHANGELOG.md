@@ -12,7 +12,7 @@ Release notes for MacZentra, newest first. Releases are Apple silicon (arm64) on
 ## 1.1.3 (2026-10-29)
 
 - Arabic treemap right-to-left fix
-- Security audit fixes (dependencies, privileged helper installer directory check)
+- Security hardening and dependency updates
 
 ## 1.1.2 (2026-10-18)
 
@@ -42,4 +42,3 @@ Release notes for MacZentra, newest first. Releases are Apple silicon (arm64) on
 ## 1.0.0
 
 - First public release: treemap and sunburst views, Storage Insights, duplicate and similar-image detection, junk and developer-junk cleaning, app uninstaller, system monitor, Smart Care, Trash-first recoverable deletes and the `msc` CLI (Pro)
-- Since 1.0.8 the last universal build, releases are Apple silicon only
